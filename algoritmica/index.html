@@ -13339,7 +13339,7 @@ Donde, $\theta \in \mathbf{R^{1xC}}$ es el vector de "valores" para cada categor
 <p>$\frac{\partial J }{\partial W} = ~\big(\frac{\partial ~x ~W}{\partial W}\big)^T~\frac{\partial J}{\partial \hat{y}} ~\frac{\partial \hat{y}}{\partial ~x ~W}$</p>
 <p>Donde: 
 $$~\frac{\partial J}{\partial \hat{y}}~\frac{\partial \hat{y}}{\partial ~x ~W} = \hat{y} - e_{correcto}$$</p>
-<p>Si te interesa entender por que esto es verdad, intenta hacer la prueba tu mismo, y visita este <a href="http://peterroelants.github.io/posts/neural_network_implementation_intermezzo02/">sitio web (en inglés)</a></p>
+<p>Si quieres entender esta última expresión, intenta hacer la prueba tu mismo, o visita este <a href="http://peterroelants.github.io/posts/neural_network_implementation_intermezzo02/">sitio web (en inglés)</a></p>
 
 </div>
 </div>
@@ -13350,7 +13350,7 @@ $$~\frac{\partial J}{\partial \hat{y}}~\frac{\partial \hat{y}}{\partial ~x ~W} =
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Modifica tu programa anterior para que esta vez la función objetivo sea:</p>
 <p>$$J = minimiza\{-log(\hat{y}_{correcto})\}$$</p>
-<p>Y la actualización en la dirección que minimiza el valor del objetivo es:</p>
+<p>Y la actualización en la dirección que minimiza el valor del objetivo sea:</p>
 <p>$W := ~W - ~\alpha~\frac{\partial J}{\partial W}$</p>
 <p>¿Por qué usamos un signo negativo esta vez?</p>
 <p><a href="https://turing.iimas.unam.mx/~ivanvladimir/post/gradient_descent">Descenso por Gradiente</a></p>
@@ -13389,6 +13389,223 @@ $$~\frac{\partial J}{\partial \hat{y}}~\frac{\partial \hat{y}}{\partial ~x ~W} =
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Parte-2.2:-Construyendo-Redes-Neuronales-Artificiales-Desde-Cero-(Parte-2)">Parte 2.2: Construyendo Redes Neuronales Artificiales Desde Cero (Parte 2)<a class="anchor-link" href="#Parte-2.2:-Construyendo-Redes-Neuronales-Artificiales-Desde-Cero-(Parte-2)">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>En la sección anterior construimos un clasificador $softmax$ con el objetivo:
+$$J = minimiza\{-log(\hat{y}_{correcto})\}$$</p>
+<p>Donde: $$\hat{y}_{correcto} \in \hat{y}$$ $$\hat{y} = softmax(x~W)$$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>El algoritmo de $softmax$ requiere los siguientes pasos para calcular el objetivo:</p>
+<ol>
+<li>Multiplica tu punto de datos $x$ por la matriz $W$ para obtener los valores (llámalos $v$) para cada clase.</li>
+<li>Calcula $softmax(v)$ para obtener $\hat{y}$ (las "probabilidades" de cada clase).</li>
+<li>Calcula el objetivo de la entropía cruzada (también conocido como "la pérdida de entropía cruzada")</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Para actualizar los parámetros $W$, los pasos son:</p>
+<ol>
+<li>Calcula la derivada de la función objetivo respecto a los parametros $W$</li>
+<li>Actualiza los parametros usando la derivada que calculaste.</li>
+</ol>
+<p>$Softmax$ puede ser convertido en una red neuronal artifical de verdad al agregarle una "capa oculta" entre los datos $x$ y el paso donde se calculan los valores. Todos los demás pasos se mantienen iguales.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Los pasos para calcular el objetivo entonces son:</p>
+<ol>
+<li>Multiplica tu punto de datos $x$ por la matriz $W^{(h)} \in \mathbf{R^{DxH}}$ (donde $(h)$ identifica la matriz, y $\mathbf{H}$ es el número de columnas) para obtener es estado oculto $h \in \mathbf{R^{1xH}}$.</li>
+<li>multiplica el estado oculto $h$ por la matriz de salida $W^{(o)} \in \mathbf{R^{HxC}}$ (donde $(o)$ identifica la matriz) para obtener los valores $v$ de cada clase.</li>
+<li>Calcula $softmax(v)$ para obtener $\hat{y}$ (las "probabilidades" de cada clase).</li>
+<li>Calcula el objetivo de entropía cruzada (también conocido como "pérdida de entropía cruzada")</li>
+</ol>
+<p>El objetivo sigue siendo el mismo, pero $\hat{y}$ ahora es:
+$\hat{y} = softmax(x~W^{(h)}~W^{(o)})$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Para actualizar los parámetros, los pasos son:</p>
+<ol>
+<li>Calcula la derivada del objetivo respecto a los parámetros $W^{(h)}$ y $W^{(o)}$.</li>
+<li>Actualiza los parámetros usando las derivadas que calculaste.</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Como puedes ver, ahora tendremos que calcular dos derivadas:</p>
+<p>$\frac{\partial J}{\partial W^{(h)}}$</p>
+<p>$\frac{\partial J}{\partial W^{(o)}}$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Estas derivadas serían similares a las que calculaste anteriormente (observa que los valores $v$ ahora son $v=~x ~W^{(h)} ~W^{(o)}$):</p>
+<p>$\frac{\partial J }{\partial W^{(h)}} = ~\big(\frac{\partial ~x ~W^{(h)} ~W^{(o)}}{\partial W^{(h)}}\big)^T~\frac{\partial J}{\partial \hat{y}} ~\frac{\partial \hat{y}}{\partial ~x ~W^{(h)} ~W^{(o)}} = ~\big(\frac{\partial ~x ~W^{(h)} ~W^{(o)}}{\partial W^{(h)}}\big)^T~\frac{\partial J}{\partial v} = \big(x^T~\frac{\partial J}{\partial v}\big) ~\big(W^{(o)}\big)^T$</p>
+<p>$\frac{\partial J }{\partial W^{(o)}} = ~\big(\frac{\partial ~x ~W^{(h)} ~W^{(o)}}{\partial W^{(o)}}\big)^T~\frac{\partial J}{\partial \hat{y}} ~\frac{\partial \hat{y}}{\partial ~x ~W^{(h)} ~W^{(o)}} = ~\big(\frac{\partial ~x ~W^{(h)} ~W^{(o)}}{\partial W^{(o)}}\big)^T ~\frac{\partial J}{\partial v} = \bigg(~\big(W^{(h)}\big)^T~x^T\bigg)~\frac{\partial J}{\partial v}$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Modifica tu programa anterior par que esta vez entrenemos una red neuronal artifical con una capa oculta. Primero tendrás que cargar los datos MNIST y separarlos en datos que servirán para entrenar y para probar la red neuronal. No te olvides de prepararlos removiendo las características promedio.</p>
+<p>Experimenta cambiando todos los parámetros que tienes disponibles. ¿Cuáles son estos ahora que tenemos una red neuronal completa?</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-julia"><pre><span></span><span class="c">### tu código aquí ###</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>¿Qué notaste? ¿Qué efecto hubo al cambiar los parametros que puedes afinar?</p>
+<p>¿Es esta la mejor manera posible de entrenar una red neuronal artifical?</p>
+<p>Discute en grupo y prepárate para compartir tus observaciones con el resto de la clase.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>El siguiente paso para hacer esta red neuronal aún más potente es agregar una función no-lineal $f()$ justo antes de alcanzar la capa oculta. Esta es una práctica muy común. El modelo entonces calcularía:</p>
+<p>$$\hat{y} = softmax( ~f(x~W^{(h)})~W^{(o)})$$</p>
+<p>Hay una variedad de distintas no-linearides que se pueden usar. De hecho, hay gente que dedican sus maestrías y doctorados a investigar las mejores no-linearidades que se pueden usar en una red neuronal artificial.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>No-linearidades comunes son:</p>
+<ul>
+<li>$\sigma(\theta)$ (la <a href="https://en.wikipedia.org/wiki/Sigmoid_function">función sigmoide</a>)</li>
+<li>$\tanh(\theta)$ (la <a href="http://reference.wolfram.com/language/ref/Tanh.html.en">tangente hyperbólica</a>)</li>
+<li>$\text{ReLU}(\theta) = f(\theta)=\max(0,\theta)$ (el rectificador lineal)</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Para los propósitos de este curso, nos enfocaremos en las primeras dos, pero ten la libertad de experimentar con cualquier no-linearidad que quieras.</p>
+<p>Como podrás esperar, es crucial conocer la derivada de la no-linearidad que escojas para poder usarla en una red neuronal artificial:</p>
+<p>Afortunadamente, las derivadas de $\sigma(\theta)$ y $\tanh(\theta)$ respecto a $\theta$ con muy simples:</p>
+<p>$$\frac{\partial \sigma(\theta)}{\partial \theta} = \sigma(\theta)(1-\sigma(\theta)) $$</p>
+<p>$$\frac{\partial \tanh(\theta)}{\partial \theta} = 1-\tanh^2(\theta)$$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Para nuestro estudio, enfoquémonos en la sigmoide $\sigma(\theta)$ para obtener la siguiente expresión:</p>
+<p>$$\hat{y} = softmax( ~\sigma(x~W^{(h)})~W^{(o)})$$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Modifica tu programa anterior para que esta vez tengas una red neuronal artificial con una capa oculata y la no-linearidad sigmoide.</p>
+<p>Julia no tiene una función sigmoide, por lo que vas a tener que escribir la tuya.</p>
+<p>Experimenta cambiando los parámetros afinables. Tabien intenta cambiando como inicializas los parámetros $W^{(h)}$ y $W^{(o)}$. ¿Podría afectar eso en algo?</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-julia"><pre><span></span><span class="c">### tu código aquí ###</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Y así, hemos concluido la construcción de una Red Neuronal Artifical desde cero.</p>
+<p>Experimenta con otras no-linearidades y agrega más capas ocultas (incluso mezclando distintas no-linearidades entre ellas). No te olvides de afinar los parámetros.</p>
+<p>¡Felicidades!</p>
+<hr>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Parte-3:-Optimizando-una-Red-Neuronal-Artificial-con-los-datos-MNIST">Parte 3: Optimizando una Red Neuronal Artificial con los datos MNIST<a class="anchor-link" href="#Parte-3:-Optimizando-una-Red-Neuronal-Artificial-con-los-datos-MNIST">&#182;</a></h1>
 </div>
 </div>
 </div>
