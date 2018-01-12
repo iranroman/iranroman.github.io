@@ -12905,6 +12905,9 @@ Supongamos que el método descrito en 1.2, clasificación  con las característi
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://www.youtube.com/watch?v=MYXdAm1Khr0">
+    <img src="YouTubeThumbnails/14_Esp_Mult.png" style="width: 400px"/>
+</a></p>
 <p>En un espacio "multidimensional" (como los espacios 2D y 3D que estudiamos previamente), podemos encontrar relaciones entre distintos puntos de datos en base a que tan cerca o lejos se encuentren unos de otros.</p>
 <p>Previamente, usamos el <a href="https://es.wikipedia.org/wiki/Producto_escalar">producto interno</a> para describir la distancia entre puntos distintos.</p>
 
@@ -12919,7 +12922,7 @@ Supongamos que el método descrito en 1.2, clasificación  con las característi
 <p><img src="https://www.mathsisfun.com/algebra/images/dot-product-ex1.gif"/></p>
 <p>Vemos los vectores $$a = [-6, 8]$$ y $$b = [5, 12]$$ en el espacio $\mathbf{R^{1x2}}$.</p>
 <p>El producto interno entre estos dos vectores sería: $$a ~ b^T = (-6)(5) + (8)(12) = 66$$</p>
-<p>Entonces, podemos considerar el valor $66$ omo un indicative de la similaridad entre los dos vectores.</p>
+<p>Entonces, podemos considerar el valor $66$ como un indicador de la similitud entre los dos vectores.</p>
 
 </div>
 </div>
@@ -12971,6 +12974,9 @@ Te puedes imaginar que para cada uno de los tres colores diferentes de datos, ex
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://www.youtube.com/watch?v=NqrFS_1XMyg">
+    <img src="YouTubeThumbnails/15_Def_Obj.png" style="width: 400px"/>
+</a></p>
 <p>En el mundo real, los datos pueden ser tan multidimensionales y complejos que encontrar estos vectores "modelo" es extremadamente difícil.</p>
 <p>De hecho, con datos multidimensionales, encontrar estos vectores "modelo" se hace más y más complicado si tenemos pocos puntos de datos. ¿Puedes pensar por qué?</p>
 <p>Aquí es donde las redes neuronales artificiales llegan a salvarnos. En pocas palabras, las redes neuronales artificiales encuentran estos vectores "modelo" usando los datos con identidades conocidas que les proporcionamos.</p>
@@ -13005,6 +13011,9 @@ Te puedes imaginar que para cada uno de los tres colores diferentes de datos, ex
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://www.youtube.com/watch?v=AqNsYMYvku4">
+    <img src="YouTubeThumbnails/16_Dif_J.png" style="width: 400px"/>
+</a></p>
 <p>Entonces, queremos:</p>
 <p>$\frac{\partial J}{\partial W}$</p>
 <p>Usamos la regla de la cadena para expandir esta expresión a:</p>
@@ -13044,6 +13053,9 @@ Te puedes imaginar que para cada uno de los tres colores diferentes de datos, ex
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Ahora comprobemos que todas las expresiones que acabamos de estudiar nos pueden ayudar a maximizar el valor correcto de un punto de datos.</p>
+<p><a href="https://www.youtube.com/watch?v=_4W4CO6_Jkc">
+    <img src="YouTubeThumbnails/17_MNIST.png" style="width: 400px"/>
+</a></p>
 <p>Para hacer esto, usaremos una versión pequeña de la base de datos <a href="http://yann.lecun.com/exdb/mnist/">MNIST</a>. Estos datos son los números del 0 al 9 (o dígitos) escritos a mano en papel, y digitizados como pixeles en blanco y negro con definición de 28x28.</p>
 <p>Por cada número, tenemos 100 ejemplos de escritura a mano. El siguiente bloque carga los datos.</p>
 
@@ -13190,6 +13202,9 @@ Te puedes imaginar que para cada uno de los tres colores diferentes de datos, ex
 <p>Cuando termines de iterar sobre todos los puntos de datos, grafica el objetivo $J$ de cada uno de los puntos de datos.</p>
 <p>Lo que queremos ver es que la mariz <code>W</code> puede ser cambiada para maximizar objetivo con los datos que estámos entrenando.</p>
 <p>Reto: si terminas antes que todos los demás, ¿puedes implementar esto sin usar un ciclo <code>for</code>?</p>
+<p><a href="https://www.youtube.com/watch?v=Z68i0TsMOfQ">
+    <img src="YouTubeThumbnails/18_Max_J.png" style="width: 400px"/>
+</a></p>
 
 </div>
 </div>
@@ -13246,6 +13261,9 @@ Te puedes imaginar que para cada uno de los tres colores diferentes de datos, ex
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://www.youtube.com/watch?v=L3wroHriu0U">
+    <img src="YouTubeThumbnails/19_Vis_J.png" style="width: 400px"/>
+</a></p>
 <p>¿Qué notaste?</p>
 <p>¿Cuales son las limitantes de este método para entrenar el algoritmo?</p>
 <p>Discute en grupo y prepárate para compartir con todas las personas en la clase.</p>
@@ -13257,6 +13275,9 @@ Te puedes imaginar que para cada uno de los tres colores diferentes de datos, ex
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://www.youtube.com/watch?v=06sGreTpUck">
+    <img src="YouTubeThumbnails/20_J_Conv.png" style="width: 400px"/>
+</a></p>
 <p>Una gran limitación del método discutido hasta ahora es como está definido el objetivo.</p>
 <p>Si lo piensas bien, el valor podría seguir creciendo por siempre. Entonces, el proceso de "apredizaje" de los parametros $W$ podría continuar por siempre.</p>
 <p>Debe haber una mejor alternativa.</p>
@@ -13274,6 +13295,9 @@ Te puedes imaginar que para cada uno de los tres colores diferentes de datos, ex
 <p>donde</p>
 <p>$\hat{y} = \frac{~x ~W}{\sum_{i}~x ~W}$</p>
 <p>¿por qué?</p>
+<p><a href="https://www.youtube.com/watch?v=GANpUNYVM8k">
+    <img src="YouTubeThumbnails/21_Dif_Con.png" style="width: 400px"/>
+</a></p>
 
 </div>
 </div>
@@ -13349,26 +13373,6 @@ Te puedes imaginar que para cada uno de los tres colores diferentes de datos, ex
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-julia"><pre><span></span><span class="c">### tu código aquí ###</span>
-
-<span class="c"># asuman que ya tenemos definido W</span>
-
-<span class="c"># for n=1:N</span>
-
-<span class="c"># forward pass</span>
-<span class="n">v</span> <span class="o">=</span> <span class="n">W</span><span class="o">*</span><span class="n">x_entren</span><span class="p">[</span><span class="n">n</span><span class="p">,</span><span class="o">:</span><span class="p">]</span> <span class="c"># estos son los valores</span>
-<span class="n">y_hat</span> <span class="o">=</span> <span class="n">v</span><span class="o">/</span><span class="n">sum</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="c"># estas son las probablidades</span>
-
-<span class="c"># obtener el objetivo</span>
-<span class="n">J_n</span> <span class="o">=</span> <span class="n">y_hat</span><span class="p">[</span><span class="n">y_entren</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> 
-
-<span class="c"># backward pass</span>
-<span class="n">dy_dv</span> <span class="o">=</span> <span class="o">-</span><span class="n">y_hat</span><span class="o">/</span><span class="n">sum</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
-<span class="n">dy_dv</span><span class="p">[</span><span class="n">y_entren</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">sum</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">-</span> <span class="n">v</span><span class="p">[</span><span class="n">y_entren</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])</span><span class="o">/</span><span class="n">sum</span><span class="p">(</span><span class="n">v</span><span class="p">)</span><span class="o">^</span><span class="mi">2</span>
-<span class="n">dJ_dW</span> <span class="o">=</span> <span class="n">x_entren</span><span class="p">[</span><span class="n">n</span><span class="p">,</span><span class="o">:</span><span class="p">]</span><span class="o">&#39;*</span><span class="n">dy_dv</span><span class="p">[</span><span class="n">y_entren</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
-
-<span class="n">W</span> <span class="o">=</span> <span class="n">W</span> <span class="o">+</span> <span class="n">alpha</span><span class="o">*</span><span class="n">dJ_dW</span>
-
-<span class="c"># end</span>
 </pre></div>
 
 </div>
