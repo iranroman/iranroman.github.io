@@ -11823,9 +11823,14 @@ div#notebook {
 <li>En la consola de juliabox escribe el siguiente comando:
 <pre><code>git clone https://github.com/iranroman/algoritmica_ejercicios.git</code></pre>
 </li>
-<li>(opcional) crea una cuenta en <a href="https://reddit.com/r/algoritmica">reddit</a> y continúa la discusión fuera del aula</li>
 </ol>
 <p>Así obtendrás una versión en linea del lenguaje de programación Julia y los ejercicios que estudiaremos en este taller.</p>
+<p>Además, <a href="https://www.tensorflow.org/install/">instala Tensorflow</a> en tu computadora para completar los tutoriales al final del curso.</p>
+<ul>
+<li>(opcional) crea una cuenta en <a href="https://reddit.com/r/algoritmica">reddit</a> y continúa la discusión fuera del aula</li>
+<li>Los videos de la clase están disponibles en este <a href="https://www.youtube.com/channel/UCP_UydM0eiFauT5N2IzUPIQ">canal</a>*</li>
+</ul>
+<p>Email del instructor: <a href="https://iranroman.github.io">iran</a> [at] ccrma.stanford.edu</p>
 <hr>
 
 </div>
@@ -13770,6 +13775,15 @@ $\hat{y} = softmax(x~W^{(h)}~W^{(o)})$</p>
 <p>Afortunadamente, las derivadas de $\sigma(\theta)$ y $\tanh(\theta)$ respecto a $\theta$ con muy simples:</p>
 <p>$$\frac{\partial \sigma(\theta)}{\partial \theta} = \sigma(\theta)(1-\sigma(\theta)) $$</p>
 <p>$$\frac{\partial \tanh(\theta)}{\partial \theta} = 1-\tanh^2(\theta)$$</p>
+<p><a href="https://www.youtube.com/watch?v=E-2gf9vpUUw" target="_blank">
+    <img src="YouTubeThumbnails/28_dJdWo.png" style="width: 400px"/>
+</a></p>
+<p><a href="https://www.youtube.com/watch?v=6Z73da5oP8Y" target="_blank">
+    <img src="YouTubeThumbnails/29_dJdWh.png" style="width: 400px"/>
+</a></p>
+<p><a href="https://www.youtube.com/watch?v=xiq0PTBYUq4" target="_blank">
+    <img src="YouTubeThumbnails/30_Coincid.png" style="width: 400px"/>
+</a></p>
 
 </div>
 </div>
@@ -13832,6 +13846,9 @@ $\hat{y} = softmax(x~W^{(h)}~W^{(o)})$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://www.youtube.com/watch?v=n7_FzJ_Ysg4" target="_blank">
+    <img src="YouTubeThumbnails/31_Val_Cruz.png" style="width: 400px"/>
+</a></p>
 <p>En esta sección estudiaremos como se optimiza una red neuronal usando la técnica de validación cruzada y como se regularizan las neuronas.</p>
 <p>Para esto usaremos una versión un poco más grande de los datos MNIST. Ahora tenemos 1000 puntos de datos por cada dígito. El siguiente bloque carga todos los datos.</p>
 
@@ -13998,6 +14015,9 @@ $\hat{y} = softmax(x~W^{(h)}~W^{(o)})$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://www.youtube.com/watch?v=KJZJ4qpvxts" target="_blank">
+    <img src="YouTubeThumbnails/32_Ent_Mini.png" style="width: 400px"/>
+</a></p>
 <p>Ahora si estamos listos para entrenar nuestra red neuronal artificial y afinar todos sus parámetros. Para demostrar como funciona la validación cruzada, entrenaremos una red neuronal de una capa oculta con no-linearidad $tanh()$ para clasificar los datos MNIST.</p>
 <p>Recuerda que ahora tenemos 850 puntos de datos para entrenar el algoritmo. Con este número de datos no es ideal hacer el Descenso de Gradiente con cada punto de dato que tenemos. Tampoco es ideal esperar a hacer Descenso de Gradiente tras haber calculado la derivada $\frac{\partial{J}}{\partial{W}}$ con todos los datos.</p>
 <p>Usualmente, se usa un "mini-montón" de datos (~10% del total de datos de entrenamiento disponibles) para calcular $\frac{\partial{J}}{\partial{W}}$ y llevar a cabo el Descenso de Gradiente.</p>
@@ -14008,6 +14028,9 @@ Aquí, $\lambda$ determina cuanto influyen los parámetros $W$ al objetivo. Esta
 $$J = minimiza\{-log(\hat{y}_{correcto}) + \lambda(\frac{1}{2}\sum (W^{(h)})^2 + \frac{1}{2}\sum (W^{(o)})^2 )\}$$
 Donde
 $$\hat{y} = softmax( ~\tanh(x~W^{(h)} + b^{(h)})~W^{(o)} + b^{(o)})$$</p>
+<p><a href="https://www.youtube.com/watch?v=unWJj1rT8tE" target="_blank">
+    <img src="YouTubeThumbnails/33_Opt.png" style="width: 400px"/>
+</a></p>
 
 </div>
 </div>
@@ -14424,11 +14447,22 @@ Precisión con los datos de validación:0.89
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<hr>
 <h1 id="Parte-4:-Redes-Neuronales-Artificiales-con-Tensorflow">Parte 4: Redes Neuronales Artificiales con Tensorflow<a class="anchor-link" href="#Parte-4:-Redes-Neuronales-Artificiales-con-Tensorflow">&#182;</a></h1><p>Los cuadernos que explican como implementar redes neuronales artificiales con Tensorflow están aquí:</p>
 <ol>
 <li><a href="https://github.com/iranroman/algoritmica_ejercicios/blob/master/Tensorflow_pt1.ipynb">Redes Neuronales Artificiales con Tensorflow (Parte 1)</a></li>
 <li><a href="https://github.com/iranroman/algoritmica_ejercicios/blob/master/Tensorflow_pt2.ipynb">Redes Neuronales Artificiales con Tensorflow (Parte 2)</a></li>
 </ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr>
+<p>*los títulos de los videos solo dan una aproximación del material que cubren. Se recomienda ver todos los videos en orden para cubrir en detalle el contenido del curso.</p>
 
 </div>
 </div>
