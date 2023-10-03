@@ -1,5 +1,5 @@
 <p align="right"><i>
-progress is imminent when we share with each other
+progress is imminent when we share with each other.
 </i></p>
 
 Throughout my academic journey, I've delved into the intricacies of human perception and action, translating these insights into machine perception models. As a postdoctoral scholar at [New York University's Tandon School of Engineering](https://cusp.nyu.edu/profiles/iran-roman/) and the [Music and Audio Research Laboratory](https://steinhardt.nyu.edu/people/iran-r-roman), I explore the nexus between human behavior and AI. With a foundation in biology, signal processing, and linguistics, I challenge conventional views of human behavior to discover mechanisms that can inform novel insights for AI models.
