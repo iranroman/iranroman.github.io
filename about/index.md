@@ -7,3 +7,8 @@ I investigate the intricacies of human perception and action and translate these
 My research has particularly looked at human actions with rhythmic events. Traditional Bayesian models fall short in capturing this, leading me to propose models anchored in “strong anticipation”. These non-linear oscillator-based models illuminate the behavioral nuances between musicians and non-musicians, a contribution recognized by [Stanford’s Human-Centered Artificial Intelligence award](https://stanforddaily.com/2019/05/01/stanfords-human-centered-ai-institute-awards-30-seed-grants/).
 
 In the realm of machine learning, I aim to enhance models for spatial perception by harnessing acoustic imaging and computer vision. I've advanced models for sound source distance and direction of arrival estimation. More recently I have been developing new models for multimodal machine perception that can recognize and track object states in dynamic scenes. My contributions extend to open-source projects like `librosa`, `soundata`, `mirdata`, and `micarraylib`. Parallel to academia, my research has found applications in product development at companies such as Apple, Tesla, Raytheon/BBN, and Plantronics.
+
+---
+<p align="right">
+&copy; 2023 Iran R. Roman
+</p>
