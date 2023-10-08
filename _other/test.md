@@ -1,14 +1,9 @@
 ---
-layout: other
+layout: other-list
 title:  "Markdown Syntax"
 date:   2023-10-07
 excerpt: "A test"
-tag:
-- markdown 
-- syntax
-- sample
-- test
-- jekyll
+other: true
 comments: false
 ---
 
