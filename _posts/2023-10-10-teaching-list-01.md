@@ -10,6 +10,10 @@ comments: false
 
 In the quiet streets of the Mexican countryside, at the tender age of 12, my journey as an educator began. Every week, I would sit with 5th graders, delving into the world of short stories, unraveling plots and deciphering characters. The spark ignited further when, at 14, I founded the “Escuela de Música Rosa Victoria” in my parent's garage. Overseeing the musical journey of more than 50 students, I crafted materials that bridged musical notes with emotions. Observing my students master instruments and solfege, a curiosity arose within me – a yearning to understand the nuances of learning. This intrigue led me across borders to the University of North Texas (UNT) on a student visa, where I pursued my passions in Music and Biology as an undergrad.
 
+| <img src="../photos/unt_teaching.png" alt="drawing" width="200"/> | 
+|:--:| 
+| *Teaching Biology at UNT in 2013* |
+
 At UNT, my innate drive to teach found new avenues. From organizing study groups to formally teaching Genetics and Microbiology labs, my undergraduate years were filled with moments of enlightenment and inspiration. The trust my professors, like Dr. Pamela Padilla and the late Mrs. Roxana Hughes, placed in me was both an honor and a responsibility. Their guidance and the pedagogical tools I acquired, such as the project-based instruction (PBI) framework, allowed me to innovate in the classroom. 
 
 Yet, every teaching approach comes with its challenges. While PBI enhanced individual learning, it sometimes curtailed student interaction. Stanford, however, offered a remedy. Assisting Dr. Julius Smith in the vibrant classes on digital signal processing, I was introduced to the art of live-coding sessions. These sessions transformed the classroom into a lively forum, encouraging students from diverse disciplines to ideate, collaborate, and innovate. This atmosphere not only fostered interdisciplinary collaborations but also sparked novel research ideas.
