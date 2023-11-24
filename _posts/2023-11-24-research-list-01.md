@@ -15,7 +15,7 @@ This model notably
 can account for the disparities between musicians and non-musicians, and
 also the NMA growth as a function of longer metronome periods (Roman et al. 2019).
 
-| ![nma.png](https://raw.githubusercontent.com/iranroman/iranroman.github.io/main/figures/nma.png) | 
+| ![nma.png](https://raw.githubusercontent.com/iranroman/iranroman.github.io/main/figures/nma.png =x250) | 
 |:--:| 
 | *Left: The NMA in (non) musicians tapping with a metronome at different periods. Right: The NMA in the “musician” and “non-musician” versions of my model, which anticipates due to delayed feedback. The same regression lines for the behavioral data are shown in both plots.* |
 
@@ -29,7 +29,7 @@ This work was funded by a seed grant from the Stanford AI Lab in 2020.
 
 Collectively, these models provide a comprehensive understanding of human synchronization dynamics, challenging traditional Bayesian-based approaches.
 
-| ![hebbian.png](https://raw.githubusercontent.com/iranroman/iranroman.github.io/main/figures/hebbian.png) | 
+| ![hebbian.png](https://raw.githubusercontent.com/iranroman/iranroman.github.io/main/figures/hebbian.png =x250) | 
 |:--:| 
 | *PMA and NMA in my model as a function of a stimulus (FN=N% faster or slower) than its rate of spontaneous oscillation.* |
 
