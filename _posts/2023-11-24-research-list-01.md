@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Strong Anticipation"
+title:  "Theoretical Neuroscience"
 date:   2023-11-24
 excerpt: "Beyond prediction and recognition: strong anticipation explains perception & action in human behavior"
 research: true
