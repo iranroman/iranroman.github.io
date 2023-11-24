@@ -33,9 +33,9 @@ This work was funded by a seed grant from the Stanford AI Lab in 2020.
 
 Collectively, these models provide a comprehensive understanding of human synchronization dynamics, challenging traditional Bayesian-based approaches.
 
-1. [Roman IR, Washburn A, Large EW, Chafe C, Fujioka T. Delayed feedback embedded in perception- action coordination cycles results in anticipation behavior during synchronized rhythmic action: A dynamical systems approach. PLoS computational biology. 2019 Oct 31;15(10):e1007371](https://ccrma.stanford.edu/~iran/papers/Roman_et_al_PLoSCB_2019.pdf)
+1. [Roman IR, Washburn A, Large EW, Chafe C, Fujioka T. Delayed feedback embedded in perception-action coordination cycles results in anticipation behavior during synchronized rhythmic action: A dynamical systems approach. PLoS computational biology. 2019 Oct 31;15(10):e1007371](https://ccrma.stanford.edu/~iran/papers/Roman_et_al_PLoSCB_2019.pdf)
 2. [Large EW, Roman IR, Kim JC, Cannon J, Pazdera JK, Trainor LJ, Rinzel J, Bose A. Dynamic models for musical rhythm perception and coordination. Frontiers in Computational Neuroscience. 2023 May 17;17:1151895.](https://ccrma.stanford.edu/~iran/papers/Large_et_al_FN_2023.pdf)
-3. [Roman IR, Roman AS, Kim JC, Large EW. Hebbian learning with elasticity explains how the sponta- neous motor tempo affects music performance synchronization. PLOS Computational Biology. 2023 Jun 7;19(6):e1011154.](https://ccrma.stanford.edu/~iran/papers/Roman_et_al_PLoSCB_2023.pdf)
+3. [Roman IR, Roman AS, Kim JC, Large EW. Hebbian learning with elasticity explains how the spontaneous motor tempo affects music performance synchronization. PLOS Computational Biology. 2023 Jun 7;19(6):e1011154.](https://ccrma.stanford.edu/~iran/papers/Roman_et_al_PLoSCB_2023.pdf)
 
 ---
 <p align="right">
