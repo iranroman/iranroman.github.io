@@ -27,11 +27,11 @@ towards a term that simulates an individual’s SMT. Hence, the model can show b
 both of which grow as the stimulus frequency deviates from the SMT (Roman et al., 2023). 
 This work was funded by a seed grant from the Stanford AI Lab in 2020. 
 
-Collectively, these models provide a comprehensive understanding of human synchronization dynamics, challenging traditional Bayesian-based approaches.
-
 | ![hebbian.png](https://raw.githubusercontent.com/iranroman/iranroman.github.io/main/figures/hebbian.png) | 
 |:--:| 
 | *PMA and NMA in my model as a function of a stimulus (FN=N% faster or slower) than its rate of spontaneous oscillation.* |
+
+Collectively, these models provide a comprehensive understanding of human synchronization dynamics, challenging traditional Bayesian-based approaches.
 
 1. [Large EW,Roman IR,Kim JC,Cannon J,Pazdera JK,Trainor LJ,Rinzel J,Bose A.Dynamic models for musical rhythm perception and coordination. Frontiers in Computational Neuroscience. 2023 May 17;17:1151895.](https://ccrma.stanford.edu/~iran/papers/Large_et_al_FN_2023.pdf)
 4. [Roman IR, Washburn A, Large EW, Chafe C, Fujioka T. Delayed feedback embedded in perception- action coordination cycles results in anticipation behavior during synchronized rhythmic action: A dynamical systems approach. PLoS computational biology. 2019 Oct 31;15(10):e1007371](https://ccrma.stanford.edu/~iran/papers/Roman_et_al_PLoSCB_2019.pdf)
