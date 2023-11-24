@@ -17,8 +17,11 @@ layout: compress
             <div class="content">
                 <div class="post-title {% if page.feature %} feature {% endif %}">
                     <h1>{{ page.title }}</h1>                    
-                    {% if page.project %}
-                    <a class="btn zoombtn" href="{{site.url}}/projects/">
+                    {% if page.teaching %}
+                    <a class="btn zoombtn" href="{{site.url}}/teaching/">
+                    {% endif %}
+                    {% if page.research %}
+                    <a class="btn zoombtn" href="{{site.url}}/research/">
                     {% endif %}
                     {% if page.other %}
                     <a class="btn zoombtn" href="{{site.url}}/other/">
