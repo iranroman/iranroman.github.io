@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Theoretical Neuroscience"
-date:   2023-11-24
+date:   2023-11-26
 excerpt: "Beyond prediction and recognition: strong anticipation explains perception & action in human behavior"
 research: true
 
