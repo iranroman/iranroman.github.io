@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Applied Machine Learning in AR"
+title:  "Machine Learning for Augmented Reality"
 date:   2023-11-26
 excerpt: "Multimodal machine learning for assistive task guidance in augmented reality"
 research: true
