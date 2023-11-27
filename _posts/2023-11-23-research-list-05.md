@@ -7,7 +7,7 @@ research: true
 comments: false
 ---
 
-[Washburn A, Román I, Huberth M, Gang N, Dauer T, Reid W, Nanou C, Wright M, Fujioka T. Musical role asymmetries in piano duet performance influence alpha-band neural oscillation and Behavioral synchronization. Frontiers in neuroscience. 2019 Oct 15;13:1088.](https://ccrma.stanford.edu/~iran/papers/Washburn_et_al_FN_2019.pdf)
+[Washburn A, Roman IR, Huberth M, Gang N, Dauer T, Reid W, Nanou C, Wright M, Fujioka T. Musical role asymmetries in piano duet performance influence alpha-band neural oscillation and Behavioral synchronization. Frontiers in neuroscience. 2019 Oct 15;13:1088.](https://ccrma.stanford.edu/~iran/papers/Washburn_et_al_FN_2019.pdf)
 Recent work in interpersonal coordination has revealed that neural oscillations, occurring spontaneously in the human brain, are modulated during the sensory, motor, and cognitive processes involved in interpersonal interactions. We employed music ensemble performance to evaluate patterns of behavioral and neural activity when roles between co-performers are systematically varied with complete counterbalancing.
 
 [Huberth M, Dauer T, Nanou C, Roman IR, Gang N, Reid W, Wright M, Fujioka T. Performance monitoring of self and other in a turn-taking piano duet: A dual-EEG study. Social neuroscience. 2019 Jul 4;14(4):449-61.](https://ccrma.stanford.edu/~iran/papers/Huberth_et_al_SN_2018.pdf)
