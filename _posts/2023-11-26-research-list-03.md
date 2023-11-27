@@ -13,7 +13,7 @@ To achieve it, I have developed models that, given a procedure such as a recipe
 or medical protocol, can interpret human behavior from an egocentric perspective, 
 identifying objects, and deducing steps.
 
-| ![ar.png](https://raw.githubusercontent.com/iranroman/iranroman.github.io/main/figures/ar.png) | 
+| ![ar_.png](https://raw.githubusercontent.com/iranroman/iranroman.github.io/main/figures/ar_.png) | 
 |:--:| 
 | *Given a recipe, augmented reality allows us to sense objects in specific states, infer user actions, and provide critical guidance to perform a task.* |
 
