@@ -20,7 +20,7 @@ identifying objects, and deducing steps.
 Through this project I have collaborated with the company Raytheon/BBN, who use 
 my multimodal models that harmoniously integrate video, audio, and object detections 
 to infer steps in distinct medical procedures. This system has been evaluated by MIT 
-Lincoln Labs for PTG, and it is able to guide paramedics through medical tasks such 
+Lincoln Labs, and it is able to guide paramedics through medical tasks such 
 as applying a tourniquet. Working closely with BBN we have optimized the model 
 integration in an AR system that can offer real-time feedback to users on potential errors.
 
