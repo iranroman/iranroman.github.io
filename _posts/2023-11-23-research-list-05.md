@@ -13,7 +13,7 @@ Recent work in interpersonal coordination has revealed that neural oscillations,
 [Huberth M, Dauer T, Nanou C, Roman IR, Gang N, Reid W, Wright M, Fujioka T. Performance monitoring of self and other in a turn-taking piano duet: A dual-EEG study. Social neuroscience. 2019 Jul 4;14(4):449-61.](https://ccrma.stanford.edu/~iran/papers/Huberth_et_al_SN_2018.pdf)
 During joint action tasks, expectations for outcomes of one’s own and other’s actions are collectively monitored. Recent evidence suggests that trait empathy levels may also influence performance monitoring processes. The present study investigated how outcome expectation and empathy interact during a turn-taking piano duet task, using simultaneous electroencephalography (EEG) recording. 
 
-[Roman IR, Reid W. An oscillatory neural network model of motor dynamics during continuous periodic movement. 2016.](https://ccrma.stanford.edu/~iran/papers/Roman_and_Reid_CS273B_2016)
+[Roman IR, Reid W. An oscillatory neural network model of motor dynamics during continuous periodic movement. 2016.](https://ccrma.stanford.edu/~iran/papers/Roman_and_Reid_CS273B_2016.pdf)
 In the motor system, desynchronization of oscillatory activity in the beta band (20Hz) is observed through periodic somatosensory and/or auditory stimulation. We developed a neural model of nonlinear oscillators that transforms stimuli into characteristic oscillatory activity of the beta band.
 
 [Roman IR. Assessing Neuroplasticity with Convolutional and Recurrent Neural Networks. 2015.](https://ccrma.stanford.edu/~iran/papers/Roman_CS231N_2015.pdf)
