@@ -28,7 +28,7 @@ integration in an AR system that can offer real-time feedback to users on potent
 |:--:| 
 | *My multimodal deep learning model for step detection in medical procedures. It uses audio-visual representations of actions, objects, and sounds to infer user progress through a task.* |
 
-1. [Castelo S, Rulff J, McGowan E, Steers B, Wu G, Chen S, Roman IR, Lopez R, Brewer E, Zhao C, Qian J, Cho K, He H, Sun Q, Vo H, Bello J, Krone M, Silva C. ARGUS: Visualization of AI-Assisted Task Guidance in AR. Transactions on Visualization and Computer Graphics. 2023.](https://ccrma.stanford.edu/~iran/papers/Castelo_et_al_VIS_2023.pdf))
+1. [Castelo S, Rulff J, McGowan E, Steers B, Wu G, Chen S, Roman IR, Lopez R, Brewer E, Zhao C, Qian J, Cho K, He H, Sun Q, Vo H, Bello J, Krone M, Silva C. ARGUS: Visualization of AI-Assisted Task Guidance in AR. Transactions on Visualization and Computer Graphics. 2023.](https://ccrma.stanford.edu/~iran/papers/Castelo_et_al_VIS_2023.pdf)
 
 ---
 <p align="right">
