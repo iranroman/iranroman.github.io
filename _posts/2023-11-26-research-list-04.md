@@ -8,10 +8,10 @@ comments: false
 ---
 
 Music information Retrieval (MIR) is an essential part of what 
-I am and what I do. Here is a breakdown of my MIR work. 
+I am and what I do. Here are some of my MIR papers.
 
 [KL Walls, IR Roman, B Steers, E Georgieva. Total variation in popular rap vocals from 2009-2023: extension of the analysis by Georgieva, Ripollés & McFee. In Extended Abstracts for the Late-Breaking Demo Session of the 24th International Society for Music Information Retrieval Conference. 2023.](https://ccrma.stanford.edu/~iran/papers/Walls_et_al_ISMIR_2023.pdf)
-Pitch variability in rap vocals is overlooked in favor of the genre’s 
+Pitch variability in rap vocals is overlooked in favor of the genre's 
 uniquely dynamic rhythmic properties. We present an analysis of fundamental 
 frequency (F0) variation in rap vocals over the past 14 years, focusing on 
 song examples that represent the state of modern rap music. 
