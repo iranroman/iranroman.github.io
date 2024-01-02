@@ -10,5 +10,5 @@ In the realm of machine learning, I aim to enhance models for spatial perception
 
 ---
 <p align="right">
-&copy; 2023 Iran R. Roman
+&copy; 2024 Iran R. Roman
 </p>
