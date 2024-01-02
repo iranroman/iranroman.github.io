@@ -48,5 +48,5 @@ My work also has leveraged acoustic signals to estimate room size (Liang et al.,
 
 ---
 <p align="right">
-&copy; 2023 Iran R. Roman
+&copy; 2024 Iran R. Roman
 </p>

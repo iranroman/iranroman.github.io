@@ -32,5 +32,5 @@ integration in an AR system that can offer real-time feedback to users on potent
 
 ---
 <p align="right">
-&copy; 2023 Iran R. Roman
+&copy; 2024 Iran R. Roman
 </p>

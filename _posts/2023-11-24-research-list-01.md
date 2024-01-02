@@ -39,5 +39,5 @@ Collectively, these models provide a comprehensive understanding of human synchr
 
 ---
 <p align="right">
-&copy; 2023 Iran R. Roman
+&copy; 2024 Iran R. Roman
 </p>
