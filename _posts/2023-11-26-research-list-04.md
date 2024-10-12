@@ -7,29 +7,26 @@ research: true
 comments: false
 ---
 
-Music information Retrieval (MIR) is an essential part of what 
-I am and what I do. Here are some of my MIR papers.
+Music Information Retrieval (MIR) is an essential part of what I am and what I do. My work in MIR spans multiple domains, from rhythm and pitch analysis to synthesis techniques, contributing to the intersection of machine learning and musicology. Below, I summarize the key themes and contributions of my research in MIR, which encompasses generative models, singing style transfer, electric guitar modeling, and the study of traditional music from various cultures.
 
-[KL Walls, IR Roman, B Steers, E Georgieva. Total variation in popular rap vocals from 2009-2023: extension of the analysis by Georgieva, Ripollés & McFee. In Extended Abstracts for the Late-Breaking Demo Session of the 24th International Society for Music Information Retrieval Conference. 2023.](https://ccrma.stanford.edu/~iran/papers/Walls_et_al_ISMIR_2023.pdf)
-Pitch variability in rap vocals is overlooked in favor of the genre's 
-uniquely dynamic rhythmic properties. We present an analysis of fundamental 
-frequency (F0) variation in rap vocals over the past 14 years, focusing on 
-song examples that represent the state of modern rap music. 
+**Pitch and Rhythm Analysis in Contemporary Music**  
+A significant portion of my research focuses on analyzing pitch and rhythm across various music genres. One line of research examines pitch variability in modern vocal styles and how it interacts with the dynamic rhythmic properties of genres like rap. By exploring pitch variation in vocals, we aim to uncover evolving musical trends that have implications for the creation of generative music models.
 
-[Roman IR, Faronbi D, Burger-Weiser I, Adu-Gilmore L. F0 analysis of Ghanaian pop singing reveals progressive alignment with equal temperament over the past three decades: a case study. In20th Sound and Music Computing Conference, SMC 2023 2023 (pp. 27-33).](https://ccrma.stanford.edu/~iran/papers/Roman_et_al_SMC_2023.pdf)
-Contemporary Ghanaian popular singing combines European and traditional Ghanaian influences. We hypothesize that access to technology embedded with equal temperament catalyzed a progressive alignment of Ghanaian singing with equal-tempered scales over time. To test this, we study the Ghanaian singer Daddy Lumba, whose work spans from the earliest Ghanaian electronic style in the late 1980s to the present. 
+**Analyzing Traditional Music and Tonal Systems**  
+Another line of research explores the tonality and melody structures of traditional music, particularly within Sub-Saharan African music. My latest study examines the pitch content of seperewa songs—a traditional Akan harp-lute genre. Using field recordings from the mid-twentieth century, we applied Gaussian Mixture Models to analyze and model the pitch scales. This work not only advances the study of traditional music tonality but also reveals the challenges of using separation models like Demucs in non-Western music, indicating areas for future improvement in MIR tools.
 
-[Faronbi D, Roman I, Bello JP. Exploring Approaches to Multi-Task Automatic Synthesizer Programming. In ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2023 Jun 4 (pp. 1-5). IEEE.](https://ccrma.stanford.edu/~iran/papers/Faronbi_et_al_ICASSP_2023.pdf)
-Automatic Synthesizer Programming is the task of transforming an audio signal that was generated from a virtual instrument, into the parameters of a sound synthesizer that would generate this signal. In the past, this could only be done for one virtual instrument. In this paper, we expand the current literature by exploring approaches to automatic synthesizer programming for multiple virtual instruments.
+**Electric Guitar Modeling and Robustness in Transcription**  
+In the area of instrument modeling, one of my contributions lies in improving the robustness of Guitar Tablature Transcription. Transcription of solo guitar performances, particularly with diverse tones and effects, is essential for applications in education and musicological studies. My research demonstrates that incorporating real electric guitar tones with various audio effects into synthetic training datasets enhances the robustness of transcription models. This research, leveraging both real and synthetic data, bridges the gap between traditional instrument modeling and contemporary machine learning techniques.
 
-[Pedroza HE, Meza G, Roman IR. EGFxSet: Electric Guitar Tones Processed Through Real Effects of Distortion, Modulation, Delay and Reverb. In Extended Abstracts for the Late-Breaking Demo Session of the 23rd International Society for Music Information Retrieval Conference. 2022.](https://ccrma.stanford.edu/~iran/papers/Pedroza_et_al_ISMIR_2022.pdf)
-EGFxSet contains recordings of all clean tones in a Stratocaster guitar, with augmentations by processing through twelve electric guitar effects. Similar datasets apply effects using software, EGFxSet in contrast uses real guitar effects hardware.
+**Exploring Approaches to Sound Synthesis**  
+In the realm of sound synthesis, my work investigates multi-task approaches to synthesizer programming, specifically focusing on transforming audio signals into parameters for various virtual instruments. This research contributes to advancements in automatic synthesizer programming, with applications in music production and audio synthesis.
 
-[O’Brien T, Roman IR. A Recurrent Neural Network for Musical Structure Processing and Expectation. 2016.](https://ccrma.stanford.edu/~iran/papers/Obrien_and_Roman_CS224D_2016.pdf)
-Research in cognitive neuroscience has identified neural activity correlated with subjects hearing an unexpected event in a musical sequence. Using an augmented data set consisting of music from the western tradition (originally 371 Bach chorales), we trained a Long Short-Term Memory (LSTM) and two Recurrent Neural Network (RNN) architectures to ask: will a neural network show a larger perplexity when presented with an unexpected event in a musical sequence?
+**Generative Singing Style Transfer Across Genres**  
+In recent work I am developing SingStyleTransfer, a generative VAE-GAN model that performs singing style transfer across genres. Voice style transfer has been extensively studied in the context of speech, yet singing style, independent of the speaker's identity, remains underexplored.
 
-[Kermit-Canfield E, Roman I. Dance Type Classification in Irish and Scandinavian Folk Music. 2015.](https://ccrma.stanford.edu/~iran/papers/KermitCanfield_and_Roman_CS229_2015.pdf)
-For centuries, western cultures have written folk songs down. In the 21st century, this has resulted in large databases of music from all around the world. We have built, trained, and tested classi- fiers on Irish and Scandinavian dance music using songs encoded in symbolic representation (ABC format), downloaded from John Chamber’s online folk-song database.
+Each of these research themes aims to deepen our understanding of music through computational models while also providing practical applications for music production, musicology, and audio technology. By integrating approaches from signal processing, machine learning, and cognitive neuroscience, my work seeks to uncover the underlying patterns that define human musical expression, and in turn, to enable machines to generate and interpret music more naturally.
+
+You can find papers related to these topics (and more) on [my google scholar page](https://scholar.google.com/citations?user=W_PoFfkAAAAJ&hl)
 
 ---
 <p align="right">
