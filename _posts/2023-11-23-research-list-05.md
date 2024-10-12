@@ -19,7 +19,7 @@ In the motor system, desynchronization of oscillatory activity in the beta band 
 [Roman IR. Assessing Neuroplasticity with Convolutional and Recurrent Neural Networks. 2015.](https://ccrma.stanford.edu/~iran/papers/Roman_CS231N_2015.pdf)
 When humans receive musical training, the neural sub- strates associated with production and processing of music undergo functional changes. This study investigates whether a Convolutional Neural Network (CNN) can identify changes in the neural dynamics of an adult that received musical training.
 
-[Jiménez JE, Crego RD, Soto GE, Roman IR, Rozzi R, Vergara PM. Potential impact of the alien American mink (Neovison vison) on Magellanic woodpeckers (Campephilus magellanicus) in Navarino Island, Southern Chile. Biological Invasions. 2014 Apr;16:961-6.](https://ccrma.stanford.edu/~iran/papers/Jimenez_et_al_BI_2013.pdf)
+[Jiménez JE, Crego RD, Soto GE, Roman IR, Rozzi R, Vergara PM. Potential impact of the alien American mink (_Neovison vison_) on Magellanic woodpeckers (_Campephilus magellanicus_) in Navarino Island, Southern Chile. Biological Invasions. 2014 Apr;16:961-6.](https://ccrma.stanford.edu/~iran/papers/Jimenez_et_al_BI_2013.pdf)
 The American mink (_Neovison vison_) has been described as one of the worst invasive species in the northern hemisphere. Although some studies on the mink exist for the southern hemisphere, aside from impacts on marine and freshwater birds, its effect on other components of the biota is not well understood.
 
 ---
