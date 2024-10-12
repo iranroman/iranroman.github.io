@@ -26,7 +26,7 @@ In recent work I am developing SingStyleTransfer, a generative VAE-GAN model tha
 
 Each of these research themes aims to deepen our understanding of music through computational models while also providing practical applications for music production, musicology, and audio technology. By integrating approaches from signal processing, machine learning, and cognitive neuroscience, my work seeks to uncover the underlying patterns that define human musical expression, and in turn, to enable machines to generate and interpret music more naturally.
 
-You can find papers related to these topics (and more) on [my google scholar page](https://scholar.google.com/citations?user=W_PoFfkAAAAJ&hl)
+You can find papers related to these topics (and more) on [my google scholar page](https://scholar.google.com/citations?user=W_PoFfkAAAAJ&hl).
 
 ---
 <p align="right">
