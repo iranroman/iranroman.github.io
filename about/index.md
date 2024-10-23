@@ -8,7 +8,7 @@ My research has particularly looked at human actions with rhythmic events. Tradi
 
 In the realm of machine learning, I aim to enhance models for spatial perception by harnessing acoustic imaging and computer vision. I've advanced models for sound source distance and direction of arrival estimation. More recently, I have been developing new models for multimodal machine perception that can recognize and track object states in dynamic scenes. My contributions extend to open-source projects like `librosa`, `spatialscaper`, `mirdata`, and `micarraylib`. Parallel to academia, my research has found applications in product development at companies such as Apple, Tesla, Raytheon/BBN, and Plantronics. My research has also been funded by NSF, DARPA, and HHMI.
 
-Are you interested in joining me at Queen Mary? I am recruiting Ph.D. candidates and postdocs. I am also recruiting students who are already at Queen Mary (undergrad, masters, or doctorate). Temporary visiting positions are also possible for researchers from other institutions at all levels of expertise. Please email me to talk about open positions (i.roman \<a\> qmul.ac.uk) 
+Are you interested in joining me at Queen Mary? I am recruiting Ph.D. candidates and postdocs. I am also recruiting students who are already at Queen Mary (undergrad, masters, or doctorate). Temporary visiting positions are also possible for researchers from other institutions at all levels of expertise. Please email me your CV and let's talk about open positions (i.roman \<a\> qmul.ac.uk) 
 
 ---
 <p align="right">
